@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.main{
+    /* background: linear-gradient(to top, rgba(0, 0, 1, 0.59)50%,rgba(0, 0, 1, 0.59)50%),url(); */
+    width: 100%;
+    height: 15vh;
+    background-color:skyblue;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+
+.iccon{
+    height: 100%;
+    width: 95%;
+    background-color:aqua;
+    z-index: 99;
+    position: absolute;
+    top: -100%;
+}
+.logo{
+    color: #0ca5d3;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #0ca5d3;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #0ca5d3;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #0ca5d3;
+    border: 2px solid #0ca5d3;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
+
+.homeii{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 50px;
+    background-color: orangered;
+}
+
+
+.homeii::-webkit-scrollbar{
+    display: none;
+}
+
+
+.homeii h1{
+    display: inline-block;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    animation: scrol 20s linear infinite;
+    /* -webkit-text-stroke: 2px rgb(243, 169, 181); */
+    /* color: transparent; */
+    color: #fff;
+    transition: all linear 0.5s;
+}
+
+
+
+@keyframes scrol{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+.home{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.homei{
+    width: 40%;
+}
+
+.homei img{
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+}
+
+.homei h1{
+    font-weight: normal;
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.homei h1 span{
+    font-weight:600;
+    font-family: sans-serif;
+    color: skyblue;
+    font-size: 35px;
+}
+
+.homei p{
+    padding-top: 20px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    color: gray;
+}
+
+.special{
+    height: 100vh;
+    width: 100%;
+    /* background-color: bisque; */
+    text-align: center;
+}
+
+
+.spec{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 15px;
+}
+
+.speci{
+    /* background-color: seagreen; */
+    width: 600px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.specia{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.sp{
+    height: 230px;
+    width: 300px;
+    /* background-color: blanchedalmond; */
+}
+
+
+.store{
+    text-align: center;
+    height: 120vh;
+    width: 100%;
+    /* background-color: darkmagenta; */
+}
+
+
+.stor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.sto{
+    height: 500px;
+    width: 400px;
+    background-color: crimson;
+}
