@@ -267,3 +267,11 @@ ul li a:hover{
     width: 400px;
     /* background-color: crimson; */
 }
+
+
+.menu{
+    text-align: center;
+    height: 120vh;
+    width: 100%;
+    background-color: darkmagenta;
+}
