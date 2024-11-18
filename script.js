@@ -4,11 +4,8 @@ var ul = gsap.timeline()
 
 ul.to(".iccon",{
     top : 0,
-    duration : 0.7
-    
+    duration : 0.7  
 })
-
-
 ul.pause()
 
 const upper = document.querySelector(".menu");
