@@ -14,6 +14,7 @@ const close = document.querySelector(".cross");
 upper.addEventListener("click",function(){
     ul.play()
 })
+
 close.addEventListener("click",function(){
     ul.reverse()
 })
