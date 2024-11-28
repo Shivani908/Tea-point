@@ -278,5 +278,7 @@ ul li a:hover{
 
 
 .item{
-    
+    display: flex;
+    flex-direction: row;
+
 }
